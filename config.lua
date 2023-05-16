@@ -20,11 +20,7 @@ Config.Locations = {
         [1] = vector3(440.085, -974.924, 30.689),
         [2] = vector3(-449.811, 6012.909, 31.815),
     },
-    ["vehicle"] = {
-        [1] = vector4(448.159, -1017.41, 28.562, 90.654),
-        [2] = vector4(471.13, -1024.05, 28.17, 274.5),
-        [3] = vector4(-455.39, 6002.02, 31.34, 87.93),
-    },
+    ["vehicle"] = {},
     ["stash"] = {
         [1] = vector3(453.075, -980.124, 30.889),
     },
@@ -101,64 +97,7 @@ Config.SecurityCameras = {
     },
 }
 
-Config.AuthorizedVehicles = {
-	-- Grade 0
-	[0] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
-	},
-	-- Grade 1
-	[1] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
-
-	},
-	-- Grade 2
-	[2] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
-	},
-	-- Grade 3
-	[3] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
-	},
-	-- Grade 4
-	[4] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
-	}
-}
+Config.AuthorizedVehicles = {}
 
 Config.WhitelistedVehicles = {}
 
@@ -185,29 +124,7 @@ Config.Radars = {
 	vector4(-823.3688, -1146.980, 8.0, 300.0),
 }
 
-Config.CarItems = {
-    [1] = {
-        name = "heavyarmor",
-        amount = 2,
-        info = {},
-        type = "item",
-        slot = 1,
-    },
-    [2] = {
-        name = "empty_evidence_bag",
-        amount = 10,
-        info = {},
-        type = "item",
-        slot = 2,
-    },
-    [3] = {
-        name = "police_stormram",
-        amount = 1,
-        info = {},
-        type = "item",
-        slot = 3,
-    },
-}
+Config.CarItems = {}
 
 Config.Items = {
     label = "Police Armory",
@@ -393,41 +310,4 @@ Config.Items = {
     }
 }
 
-Config.VehicleSettings = {
-    ["car1"] = { --- Model name
-        ["extras"] = {
-            ["1"] = true, -- on/off
-            ["2"] = true,
-            ["3"] = true,
-            ["4"] = true,
-            ["5"] = true,
-            ["6"] = true,
-            ["7"] = true,
-            ["8"] = true,
-            ["9"] = true,
-            ["10"] = true,
-            ["11"] = true,
-            ["12"] = true,
-            ["13"] = true,
-        },
-		["livery"] = 1,
-    },
-    ["car2"] = {
-        ["extras"] = {
-            ["1"] = true,
-            ["2"] = true,
-            ["3"] = true,
-            ["4"] = true,
-            ["5"] = true,
-            ["6"] = true,
-            ["7"] = true,
-            ["8"] = true,
-            ["9"] = true,
-            ["10"] = true,
-            ["11"] = true,
-            ["12"] = true,
-            ["13"] = true,
-        },
-		["livery"] = 1,
-    }
-}
+Config.VehicleSettings = {}

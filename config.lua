@@ -32,10 +32,7 @@ Config.Locations = {
         [1] = vector3(436.68, -1007.42, 27.32),
         [2] = vector3(-436.14, 5982.63, 31.34),
     },
-    ["helicopter"] = {
-        [1] = vector4(449.168, -981.325, 43.691, 87.234), -- MRPD Main Helipad
-        [2] = vector4(481.94, -982.31, 41.01, 104.78), -- MRPD Secondary Helipad
-    },
+    ["helicopter"] = {},
     ["armory"] = {
         [1] = vector3(454.17, -999.67, 35.06), -- MRPD Armory
         [2] = vector3(458.44, -997.19, 35.06), -- MRPD Armory 2

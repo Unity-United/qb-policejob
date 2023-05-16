@@ -17,34 +17,40 @@ Config.LicenseRank = 1
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 Config.Locations = {
     ["duty"] = {
-        [1] = vector3(440.085, -974.924, 30.689),
-        [2] = vector3(-449.811, 6012.909, 31.815),
+        [1] = vector3(442.63, -984.46, 30.72), -- MRPD Main Lobby
+        [2] = vector3(477.52, -998.29, 30.46), -- MRPD Cells
+        [3] = vector3(480.85, -984.03, 25.47), -- MRPD Garage
     },
     ["vehicle"] = {},
     ["stash"] = {
-        [1] = vector3(453.075, -980.124, 30.889),
+        [1] = vector3(449.03, -995.31, 35.06), -- MRPD "Female" Lockers
+        [2] = vector3(466.64, -989.7, 25.47), -- MRPD Intake Gun Lockers
+        [3] = vector3(441.67, -995.22, 35.06), -- MRPD "Male" Lockers
     },
+    -- Change inpound location here and in ps-mdt.
     ["impound"] = {
         [1] = vector3(436.68, -1007.42, 27.32),
         [2] = vector3(-436.14, 5982.63, 31.34),
     },
     ["helicopter"] = {
-        [1] = vector4(449.168, -981.325, 43.691, 87.234),
-        [2] = vector4(481.94, -982.31, 41.01, 104.78),
+        [1] = vector4(449.168, -981.325, 43.691, 87.234), -- MRPD Main Helipad
+        [2] = vector4(481.94, -982.31, 41.01, 104.78), -- MRPD Secondary Helipad
     },
     ["armory"] = {
-        [1] = vector3(462.23, -981.12, 30.68),
+        [1] = vector3(454.17, -999.67, 35.06), -- MRPD Armory
+        [2] = vector3(458.44, -997.19, 35.06), -- MRPD Armory 2
     },
     ["trash"] = {
-        [1] = vector3(439.0907, -976.746, 30.776),
+        [1] = vector3(449.97, -983.74, 35.06), -- MRPD Trash
     },
     ["fingerprint"] = {
-        [1] = vector3(460.9667, -989.180, 24.92),
+        [1] = vector3(485.66, -1013.42, 25.47), -- MRPD Back Left Corner
     },
     ["evidence"] = {
-        [1] = vector3(442.1722, -996.067, 30.689),
-        [2] = vector3(451.7031, -973.232, 30.689),
-        [3] = vector3(455.1456, -985.462, 30.689),
+        [1] = vector3(462.51, -1001.12, 30.46), -- MRPD Evidence 1
+        [2] = vector3(465.02, -1001.48, 30.46), -- MRPD Evidence 2
+        [3] = vector3(474.48, -1003.59, 30.5), -- MRPD Evidence 3
+        [4] = vector3(470.61, -985.56, 35.06), -- MRPD Evidence 4
     },
     ["stations"] = {
         [1] = {label = "Police Station", coords = vector4(428.23, -984.28, 29.76, 3.5)},
